@@ -1,0 +1,44 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/">
+
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/80640d8907.js"></script>
+    <script src="js/main.js" ></script>
+    <title>Login</title>
+</head>
+<body>
+    <h1>.Welcome</h1>
+    <% if(messages.error) { %>
+        <%= messages.error %>
+    <% } %>
+
+    <div id="main">
+        <form action="" method="POST">
+            <div class="center">
+                <h2 class="heading2">Login</h2>
+
+                <label for="email">Username</label><br>
+                <i class="fa fa-envelope"></i>
+                <input id="email" type="email" name="email" class="username" placeholder="enter email id"><br><hr>
+
+                <label for="password" class="label2">Password</label><br>
+                <i class="fa fa-lock"></i>
+                <input type="password" name="password" id="password" placeholder="enter password"><br><hr>
+
+                <a href="#" class="link2">Forgot password?</a>
+                <button id="btn" type="submit">LOGIN</button>
+                <p>Or Sign Up Using</p>
+                <div id="link1">
+                    <div class="circle google"><i class="fa fa-google" style="padding-top: 6px;" aria-hidden="true"></i></div>
+                    <div class="circle facebook"><i class="fa fa-facebook" style="padding-top: 6px;" aria-hidden="true"></i></div>
+                </div>
+                <p style="margin-top: 20px;">Have not account yet?</p>
+                <div style="text-align: center; font-family: sans-serif; margin-top: 10px;">
+                    <a href="/signup" class="link2" style="float: none;">Sign Up</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>

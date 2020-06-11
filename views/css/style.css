@@ -1,0 +1,100 @@
+/* hrllo */
+body{
+    background: linear-gradient( to right, rgb(11, 205, 240), rgb(243, 4, 252));
+}
+#main{
+    width: 350px;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px auto;
+    margin-top: 70px;
+    border-radius: 7px;
+}
+h1{
+    font-family: monospace;
+    text-align: center;
+    font-size: 70px;
+    margin: 20px;
+    color: rgb(255, 217, 0);
+}
+.center{
+    border-radius: 2px;
+    padding: 10px 40px;
+}
+.heading2{
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 30px;
+}
+.center label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.label2{
+    margin-top: 30px;
+}
+.center hr{
+    margin: 0px;
+    color: black;
+}
+.username{
+    border: none;
+    height: 30px;
+    outline: none;
+}
+
+#password{
+    border: none;
+    height: 30px;
+    outline: none;
+}
+.link2{
+    float: right;
+    color: black;
+    padding-top: 5px;
+    text-decoration: none;
+    font-size: small;
+}
+#btn{
+    background: linear-gradient(to right, rgb(11, 205, 240), rgb(243, 4, 252));
+    text-align: center;
+    font-size: 10px;
+    padding: 10px 0px;
+    width: 200px;
+    color: blanchedalmond;
+    border-radius: 20px;
+    border: none;
+    margin: 50px auto 50px auto;
+    display: flex;
+    justify-content: center;
+}
+.center > i{
+    opacity: 0.7;
+}
+.center p{
+    text-align: center;
+    font-size: small;
+    opacity: 0.8;
+    margin: 5px;
+}
+#link1{
+    display: flex;
+    justify-content: center; 
+}
+.circle{
+    border-radius: 50%;
+    padding: 4px;
+    margin: 10px ;
+    display: block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    color: white;
+}
+.google{
+    background-color: rgb(221, 50, 50);
+}
+.facebook{
+    background-color: rgb(59, 67, 182);
+}
